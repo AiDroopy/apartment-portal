@@ -1,4 +1,4 @@
-package hu.odin;
+package hu.odin.removable;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
