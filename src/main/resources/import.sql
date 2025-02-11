@@ -7,4 +7,4 @@ alter sequence laundry_seq restart with 5;
 insert into post (id, userId, title, body) values(1, 1, 'The first Post', 'Palearktis, och bland lommarna har den det största utbredningsområdet. Smålommen häckar');
 insert into post (id, userId, title, body) values(2, 1, 'The second Post', 'Smålommen lever i monogama förhållanden och paret hjälps åt att bygga boet, ruva äggen');
 insert into post (id, userId, title, body) values(3, 2, 'The third Post', 'När den flyger har den snabbare vingslag än andra lommar och benen skjuter knappt ut bak');
-alter sequence laundry_seq restart with 4;
+alter sequence post_seq restart with 4;
