@@ -35,4 +35,6 @@ public class PostResource {
         post.persist();
         return Response.status(Response.Status.CREATED).entity(post).build();
     }
+
+    
 }
